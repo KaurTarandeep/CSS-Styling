@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    border-style: dotted;
+    border-color: red;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+.sepbtn{
+    height: 60px;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: purple;
+    margin: 10px;
+}
+a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}

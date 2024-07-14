@@ -1,0 +1,56 @@
+body{
+    background-color: goldenrod;
+}
+.border{
+    border: 5px solid black ;
+    margin: 50px;
+    background-color: rgb(184, 212, 225); 
+}
+.first{
+     display: inline-block;
+}
+.sec{
+    position: absolute;
+    margin-top: 160px;
+    display: inline-block;
+    height: 400px;
+    width: 700px;
+    font-size: 20px;
+    text-align: right;
+}
+.content{
+    margin: 50px;
+    background-color: rgb(220, 220, 220);
+    margin: auto;
+    width: 600px;
+}
+.head{
+    background-color: burlywood;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+select,textarea{
+    width: 90%;
+    padding: 10px;
+}
+label{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px;
+}
+.submitbtn{
+    padding: 10px;
+}
+.btn{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: lightgray;
+}
+input[type=text],input[type=email],input[type=number],input[type=date],input[type=file]
+{
+    width: 90%;
+    padding: 10px;
+}
